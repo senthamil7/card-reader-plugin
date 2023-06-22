@@ -1,8 +1,8 @@
 {
   "name": "card-reader-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "card reader plugin",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "react-scripts build"
   },
