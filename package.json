@@ -1,8 +1,8 @@
 {
   "name": "card-reader-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "card reader plugin",
-  "main": "build/index.js",
+  "main": "build/static/js/main.de227cee.js",
   "scripts": {
     "build": "react-scripts build"
   },
@@ -23,5 +23,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "react-webcam": "^7.1.1",
+    "tesseract.js": "^4.1.0"
   }
 }
