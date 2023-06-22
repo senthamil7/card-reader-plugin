@@ -1,10 +1,11 @@
 {
   "name": "card-reader-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "card reader plugin",
-  "main": "build/static/js/main.de227cee.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "postbuild": "node generate-entry-point.js"
   },
   "peerDependencies": {
     "react": "^16.0.0",
