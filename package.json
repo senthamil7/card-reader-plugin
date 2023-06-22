@@ -1,6 +1,6 @@
 {
   "name": "card-reader-plugin",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "card reader plugin",
   "main": "dist/index.js",
   "scripts": {
