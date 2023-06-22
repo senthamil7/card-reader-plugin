@@ -1,6 +1,6 @@
 {
   "name": "card-reader-plugin",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "card reader plugin",
   "main": "dist/index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "postbuild": "node generate-entry-point.js"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-webcam": "^7.1.1",
     "tesseract.js": "^4.1.0"
   },
